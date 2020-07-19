@@ -9,7 +9,7 @@ class PushButton : public QPushButton
   Q_PROPERTY(ValueType value_type READ get_value_type WRITE set_value_type)
 
 public:
-  enum class ValueType{
+  enum ValueType{
     bit,
     u16,
   };

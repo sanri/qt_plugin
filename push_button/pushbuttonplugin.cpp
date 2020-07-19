@@ -61,7 +61,7 @@ bool PushButtonPlugin::isContainer() const
 
 QString PushButtonPlugin::domXml() const
 {
-    return QLatin1String("<widget class=\"PushButton\" name=\"pushButton\">\n</widget>\n");
+    return QLatin1String("<widget class=\"PushButton\" name=\"push_button\">\n</widget>\n");
 }
 
 QString PushButtonPlugin::includeFile() const

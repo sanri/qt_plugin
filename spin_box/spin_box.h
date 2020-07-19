@@ -9,7 +9,7 @@ class SpinBox : public QSpinBox
   Q_PROPERTY(ValueType value_type READ get_value_type WRITE set_value_type)
 
 public:
-  enum class ValueType{
+  enum ValueType{
     i16,
     u16,
     i32,
