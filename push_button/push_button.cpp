@@ -5,12 +5,20 @@ PushButton::PushButton(QWidget *parent) :
 {
 }
 
-QString PushButton::get_value_name() const{
-    return _value_name;
+QString PushButton::get_value_name_write() const{
+    return _value_name_write;
 }
 
-void PushButton::set_value_name(QString name){
-    _value_name = name;
+void PushButton::set_value_name_write(QString name){
+    _value_name_write = name;
+}
+
+QString PushButton::get_value_name_enable() const{
+    return _value_name_enable;
+}
+
+void PushButton::set_value_name_enable(QString name){
+    _value_name_enable = name;
 }
 
 PushButton::ValueType PushButton::get_value_type() const{
